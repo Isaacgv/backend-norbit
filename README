@@ -1,0 +1,59 @@
+Start project, creat package.json:
+    npm init -y
+
+Install package only in production:
+    npm i typescript -D
+
+Create tsconfig.json:
+    npx tsc -init
+
+Using configuration for tsconfig.json:
+    https://github.com/tsconfig/bases
+
+Integrate typscript with node:
+    npm i @types/node -D
+
+Excute the project without need to convet typescript to :
+    npm i tsx -D
+
+Run proyect:
+    npm run de
+
+Install framework:
+    npm i fastify
+
+Format code Biome: 
+    >npm install --save-dev --save-exact @biomejs/biome
+    >create biome.json to put configurations
+    >Open Workspace Settings to configure setting.json
+        {
+            "editor.formatOnSave": true,
+            "editor.defaultFormatter": "biomejs.biome"
+        }
+    >Install Biome extension in VSCODE
+
+Build Docker:
+    sudo docker compose up -d
+
+Query Database:
+    npm i drizzle-orm
+    npm i drizzle-kit -D
+
+For validate data:
+    npm i zod
+
+Install Postgres :
+    npm i postgres
+
+Migration Database:
+    npx drizzle-kit generate
+    npx drizzle-kit migrate
+
+Interfaz to navigate to the database:
+    npx drizzle-kit studio
+
+Generate unique ids:
+     npm i @paralleldrive/cuid2
+
+Date Lib:
+    npm i dayjs
