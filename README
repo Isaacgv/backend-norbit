@@ -57,3 +57,7 @@ Generate unique ids:
 
 Date Lib:
     npm i dayjs
+
+Type provider validator:
+    https://github.com/turkerdev/fastify-type-provider-zod
+    npm i fastify-type-provider-zod
